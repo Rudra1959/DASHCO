@@ -14963,9 +14963,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c77d9b7c0131b246b0d7b48dbb77aa7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  player: {fileID: 814492702}
+  combatScript: {fileID: 0}
   anim: {fileID: 1155109618}
-  rb: {fileID: 1155109617}
   moveSpeed: 2
   acceleration: 12
   chaseRange: 4
@@ -14992,9 +14991,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Enemycombat
   damage: 1
   knockbackForce: 6
-  Attackpoint: {fileID: 1731894083}
-  WeaponRange: 1
-  PlayerLayer:
+  weaponRange: 0.5
+  attackPoint: {fileID: 1731894083}
+  playerLayer:
     serializedVersion: 2
     m_Bits: 8
 --- !u!1 &1162167834
